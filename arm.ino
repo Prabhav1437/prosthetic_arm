@@ -15,12 +15,13 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
 String rfid_tags[] = {
-  "7560562c", "55171553", "5dd37cc3",//put your rfid card numbers here 
+  "7560562c", "91ee3543", "5dd37cc3","61113f43"//put your rfid card numbers here 
 };
 String messages[] = {
-    "Touch Feeled, an opject is identified touching the prosthetic arm!",
-    "Touch Feeled, a Hot object is identified touching the prosthetic arm!",
-    "Touch Feeled, a Cold object is identified touching the prosthetic arm!",
+    "Touch Detected",
+    "Hot Temp. Detected",
+    "Cold temp. detected",
+    "Wind Detected",
   "Access Denied, Unknown User!"
 };
 
