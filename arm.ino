@@ -4,7 +4,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Servo.h>  // Include Servo library
-
+//code for prototype 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 32
 
